@@ -1,0 +1,15 @@
+// ltl-brainfck-jit/main.ltl
+//
+// Brainfuck interpreter + threaded-code optimiser.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-brainfck-jit v0.1.0")
+    io::println("Brainfuck interpreter + threaded-code optimiser.")
+    0
+}
