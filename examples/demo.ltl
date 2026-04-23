@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_brainfck_jit
+
+import std::io
+use ltl_brainfck_jit as lib
+
+fn main() {
+    io::println("ltl_brainfck_jit demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
